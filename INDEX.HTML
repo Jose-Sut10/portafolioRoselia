@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Roselia</title>
+    <link rel="stylesheet" href="RO.CSS">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>¡Hola! Soy Roselia &#x1F600;</h1>
+            <img src="perfil.jpg" alt="rosy" class="perfil-img">
+            <p>“Siempre dispuesta a aprender y ayudar.”</p>
+        </header>
+        <div id="phrase-display" style="margin-top: 20px; font-weight: bold;"></div>
+        <main>
+            <section class="card info">
+                <h2>Información Personal</h2>
+                <p><strong>Nombre:</strong> María Roselia Pérez Vicente</p>
+                <p><strong>Nivel Académico:</strong> Bachiller en Computación con orientación comercial</p>
+                <p><strong>Idiomas:</strong> Español y Kiché</p>
+                <p><strong>País de Natalidad:</strong> Guatemala</p>
+                <a href="curriculum.pdf" class="btn">Descargar CV</a>
+            </section>
+            <section class="card descripcion">
+                <h2>Descripción Personal</h2>
+                <p>Soy una chica amable y curiosa, apasionada por el estudio y el aprendizaje continuo.<BR/> Siempre busco explorar nuevos conocimientos y disfrutar del proceso, ayudando a los demás en el camino.</p>
+            </section>
+            <section class="card habilidades">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>🎤 Comunicación efectiva</li>
+                    <li>💃 Baile</li>
+                    <li>🤝 Trabajo en equipo</li>
+                </ul>
+            </section>
+            <section class="card experiencia">
+                <h2>Experiencia Laboral</h2>
+                <ul>
+                    <li><strong>caja rural compucelulares Enrique</strong></li>
+                    <li><strong>Asistente de Atención al Cliente</strong></li>
+                </ul>
+            </section>
+           
+            <section class="card hobbies">
+                <h2>Hobbies</h2>
+                <div class="hobby-list">
+                    <div class="hobby-item" data-phrase="Baila como si nadie te estuviera mirando; cada movimiento cuenta tu historia.">💃 Baile</div>
+                    <div class="hobby-item" data-phrase="Leer es mi manera de viajar sin salir de casa.">📚 Lectura</div>
+                    <div class="hobby-item" data-phrase="Cantar en karaoke es la mejor terapia.">🎤 Karaoke</div>
+                    <div class="hobby-item" data-phrase="Viajar es descubrir nuevos mundos.">🌍 Viajar</div>
+                    <div class="hobby-item" data-phrase="El estilismo es arte; cada outfit es una nueva obra maestra que creas.">✂️ Estilismo</div>
+                    <div id="phrase-display" style="margin-top: 20px; font-weight: bold;"></div>
+                </div>
+
+
+            </section>
+            </section>
+            <section class="card contacto">
+                <h2>Contacto</h2>
+                <form id="contact-form">
+                    <input type="text" placeholder="Tu Nombre" id="name" required>
+                    <input type="email" placeholder="Tu Correo" id="email" required>
+                    <textarea placeholder="Tu Mensaje" id="message" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+                <p id="response"></p>
+            </section>
+        <div class="container">
+             <section id="redes-sociales">
+                    <h2>Redes Sociales</h2>
+                    <div class="redes">
+                        <a href="#" class="social"><img src="./face.jpg" alt="Facebook"></a>
+                        <a href="#" class="social"><img src="./watza.jpg" alt="LinkedIn"></a>
+                    </div>
+                </section>
+
+                <section id="diplomas">
+                    <h2>Diplomas</h2>
+                    <div class="diploma">
+                        <p>diploma de segundo lugar en poesia</p>
+                        <p>tercero basico, 2022</p>
+                        <p>E.O.R.M. Chutzorop Primero</p>
+                    </div>
+                    
+                </section>
+
+                <section id="cursos">
+                    <h2>Cursos</h2>
+                    <h3>Finalizados</h3>
+                    <ul class="cursos">
+                       <li>Curso de Desarrollo Web</li>
+                    </ul>
+                    
+                    <h3>En Proceso</h3>
+                    <ul class="cursos">
+                       <li>Curso de Javascript </li>
+                    </ul>
+                </section>
+            </main>
+        </div>
+    <div class="emoji-background"></div>
+        
+        <footer>
+            <p>© 2024 Roselia. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+    <script src="JS.JS"></script>
+</body>
+</html>
